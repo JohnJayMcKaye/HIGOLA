@@ -1,5 +1,6 @@
 # HIGOLA - Linux
 [HIGOLA Gole2Pro](https://goleminipc.com/de/products/higole-gole-2-pro-mini-pc-windows-11-pro-intel-celeron-n5095-16gb-lpddr4-256gb-rom) Linux Setup
+Also called HIGOLE Gole 2 Pro Mini
 
 Fix all issues of the very cool handheld Linux device, that came original with Windows. 
 
