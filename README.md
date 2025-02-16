@@ -12,8 +12,8 @@ echo $'ENV{LIBINPUT_CALIBRATION_MATRIX}="-1 0 1 0 -1 1"' | sudo tee \
 ## Fix for invertet accelerometer
 
 ```
-echo $'ENV{LIBINPUT_CALIBRATION_MATRIX}="-1 0 1 0 -1 1"' | sudo tee \
-    /etc/udev/rules.d/99-gole2pro-touch.rules
+echo $'ENV{ACCEL_MOUNT_MATRIX}="0, -1, 0; -1, 0, 0; 0, 0, 1"' | sudo tee \
+    /etc/udev/rules.d/99-gole2pro-accel.rules
 ```
 
 ## Fix for no audio fro Internal Speaker
